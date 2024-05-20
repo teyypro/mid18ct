@@ -1,7 +1,8 @@
-<div ><span>👻</span>SelfStarter</div>
+
+<div ><img src = '/demoappofteyypro/logo.svg' alt = 'logo'/>SelfStarter</div>
 
 <style>
-    span{
+    img{
         display: flex;
     height: 5vh;
     padding: 0.5vh;
@@ -9,7 +10,7 @@
     font-size: 4vh;
     aspect-ratio: 1;
     font-weight: 500;
-    background-color: #1D2A57;
+    background-color: transparent;
     margin-left: 1vh;
     margin-right: 2vh;
     border-radius: 1.5vh;
