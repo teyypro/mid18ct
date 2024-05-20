@@ -4,13 +4,10 @@
 <style>
     img{
         display: flex;
-    height: 5vh;
-    padding: 0.5vh;
-    padding-bottom: 0.8vh;
-    font-size: 4vh;
+    height: 4vh;
+    padding: 1vh;
     aspect-ratio: 1;
-    font-weight: 500;
-    background-color: transparent;
+    background-color: #1D2A57;
     margin-left: 1vh;
     margin-right: 2vh;
     border-radius: 1.5vh;
@@ -21,13 +18,13 @@
         position: absolute;
     left: 0;
     background-color: transparent;
-    color: #000000;
+    color: #1D2A57;
     display: flex;
     align-items: center;
     border-radius: 2vh;
     font-size: 4vh;
-    font-family: 'Montserrat';
-    font-weight: 600;
+    font-family: Montserrat;
+    font-weight: 700;
     padding-inline: 0;
 }
 </style>

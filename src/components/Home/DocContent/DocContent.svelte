@@ -29,7 +29,7 @@ function openLink(url) {
     
         <div id = 'contaidoc1part1' in:scale ={{duration:500}}>
             <div id = 'intro'><span id = "h1">Hi✌️, lots of <span id ="h">powerful</span></span><span id = "h2"><span id ="h3">tools</span> for your</span><span id ="h4">own <span id = "h5">IELTS</span> journey</span></div>
-            <div id ='message'>Deploy offers a comprehensive toolkit for those burning the midnight oil to achieve their IELTS certification.👻</div>
+            <div id ='message'>SelfStarter offers a comprehensive toolkit for those burning the midnight oil to achieve their IELTS certification.👻</div>
             <button id = 'continue' on:click = {Scroll} >Should you also...<span id = "more" class="material-symbols-outlined">
                 arrow_drop_down
                 </span></button>
@@ -49,9 +49,9 @@ function openLink(url) {
                 </span>
                 <span class = 'nametool'>R&T Tool</span>
                 <div class = "introduce">Providing real-time translation, comprehensive dictionary definitions, synonyms, antonyms, collocations across various formats including Text, PDFs and images for your IELTS READING and WRITING workouts.</div>
-                <button on:click ={()=>{openLink('/demoappofteyypro/readingwriting')}}  class = 'deploy' ><span class="material-symbols-outlined">
-                    token
-                    </span>deploy</button>
+                <button on:click ={()=>{openLink('/demoappofteyypro/readingwriting')}}  class = 'flag' ><span class="material-symbols-outlined">
+                    flag
+                    </span>Start</button>
             </div>
             <div  id = 'listbut' class = 'choice' >
                 <span id = "icon2" class="material-symbols-outlined">
@@ -59,9 +59,9 @@ function openLink(url) {
                 </span>
                 <span class = 'nametool'>GapFilling Tool</span>
                 <div class = "introduce">Creating Gap-Filling exercises, which is the scariest part in LISTENING, from your audioscript. Work hard, fulfill both questión and ur auditory skills.</div>
-                <button on:click ={()=>{openLink('/demoappofteyypro/listening')}}  class = 'deploy' ><span class="material-symbols-outlined">
-                    token
-                    </span>deploy</button>
+                <button on:click ={()=>{openLink('/demoappofteyypro/listening')}}  class = 'flag' ><span class="material-symbols-outlined">
+                    flag
+                    </span>Start</button>
             </div>
             </div>
             <div style="
@@ -74,9 +74,9 @@ function openLink(url) {
                 </span>
                 <span class = 'nametool'>VocaCheck Tool</span>
                 <div class = "introduce">Illuminating your brain via guessing the keys, means, words of what you learn, VOCABULARY is no longer ur problem.</div>
-                <button on:click ={()=>{openLink('/demoappofteyypro/reviving')}}  class = 'deploy' ><span class="material-symbols-outlined">
-                    token
-                    </span>deploy</button>
+                <button on:click ={()=>{openLink('/demoappofteyypro/reviving')}}  class = 'flag' ><span class="material-symbols-outlined">
+                    flag
+                    </span>Start</button>
             </div>
             <div  id = 'game' class = 'choice' >
                 <span id = "icon4" class="material-symbols-outlined">
@@ -84,9 +84,9 @@ function openLink(url) {
                 </span>
                 <span class = 'nametool'>Dic&Speak Tool</span>
                 <div class = "introduce">Regulating your SPEAKING speed, tracking fluency, quick acquisition of foreign language like your mother's tougue subconsciously via RSVP technique.</div>
-                <button on:click ={()=>{openLink('/demoappofteyypro/speaking')}}  class = 'deploy' ><span class="material-symbols-outlined">
-                    token
-                    </span>deploy</button>
+                <button on:click ={()=>{openLink('/demoappofteyypro/speaking')}}  class = 'flag' ><span class="material-symbols-outlined">
+                    flag
+                    </span>Start</button>
             </div>
             </div>
 
@@ -116,7 +116,7 @@ function openLink(url) {
     span{
         padding:0;
     }
-    .deploy{
+    .flag{
         background-color: transparent;
     border: 1px solid #eeeeee;
     color: #ffffff;
