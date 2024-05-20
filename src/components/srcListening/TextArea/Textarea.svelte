@@ -19,7 +19,7 @@
     padding: 4vh;
     border-radius: 2vh;
     overflow: auto;
-    color: #1d1d1d;
+    color: #1d2a57;
     transition: 0.5s;
     cursor: pointer;
     }

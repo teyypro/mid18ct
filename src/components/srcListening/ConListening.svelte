@@ -36,7 +36,7 @@
     height: 95vh;
     width: 100%;
     display: flex;
-    background-color: #F0F4F9;
+    background-color: #ffffff;
     
         }
         #contaitask{

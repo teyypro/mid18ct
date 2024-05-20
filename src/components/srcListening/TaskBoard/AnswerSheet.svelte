@@ -54,9 +54,11 @@
       align-items: center;
       font-size: 4vh;
       width: 91%;
+      font-family: 'Montserrat';
+      font-weight: 700;
       justify-content: flex-start;
       border-bottom: 1px solid #eeeeee;
-      color: #535353;
+      color: #1d2a57;
       padding-bottom: 2%;
       }
       #check{
@@ -83,10 +85,12 @@
           color:#eeeeee;
           border:0;
      
-          transition:0.5s;
+          transition:0.2s;
           scale:1.1;
       }
-      
+      #check:active{
+        scale:0.95;
+      }
   
       #answersheet{
           position: relative;
