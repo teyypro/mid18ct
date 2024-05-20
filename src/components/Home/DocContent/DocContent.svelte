@@ -143,7 +143,7 @@ function openLink(url) {
     }
 
     .nametool{
-        font-size: 12vh;
+        font-size: 10vh;
     margin-top: 3vh;
     font-family: 'Montserrat';  
     color: #ffffff;
@@ -163,7 +163,7 @@ function openLink(url) {
     }
 
     #continue{
-        width: 16%;
+        width: 16vw;
     font-size: 2vh;
     font-family: 'Montserrat';
     display: flex;

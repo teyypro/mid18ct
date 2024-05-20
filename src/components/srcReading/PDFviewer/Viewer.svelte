@@ -1,4 +1,4 @@
-<script defer>
+  <script defer>
 
 	import {choseText,coordinateMouse,selectedText, selectedTextForQuickTaskPDF} from '../store.js'
 function Run(){

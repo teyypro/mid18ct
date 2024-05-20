@@ -1,11 +1,19 @@
-<div ><span class="material-symbols-outlined">
-    token
-    </span>Deploy</div>
+<div ><span>👻</span>SelfStarter</div>
 
 <style>
     span{
-        font-size: 6vh;
+        display: flex;
+    height: 5vh;
+    padding: 0.5vh;
+    padding-bottom: 0.8vh;
+    font-size: 4vh;
+    aspect-ratio: 1;
     font-weight: 500;
+    background-color: #1D2A57;
+    margin-inline: 1vh;
+    border-radius: 1.5vh;
+    align-items: center;
+    justify-content: center;
     }
     div{
         position: absolute;
