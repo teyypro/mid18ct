@@ -10,7 +10,8 @@
     aspect-ratio: 1;
     font-weight: 500;
     background-color: #1D2A57;
-    margin-inline: 1vh;
+    margin-left: 1vh;
+    margin-right: 2vh;
     border-radius: 1.5vh;
     align-items: center;
     justify-content: center;
