@@ -29,7 +29,7 @@ function openLink(url) {
     
         <div id = 'contaidoc1part1' in:scale ={{duration:500}}>
             <div id = 'intro'><span id = "h1">Hi✌️, lots of <span id ="h">powerful</span></span><span id = "h2"><span id ="h3">tools</span> for your</span><span id ="h4">own <span id = "h5">IELTS</span> journey</span></div>
-            <div id ='message'>mid18ct offers a comprehensive toolkit for those burning the midnight oil to achieve their IELTS certification.👻</div>
+            <div id ='message'>Mid18ct offers a comprehensive toolkit for those burning the midnight oil to achieve their IELTS certification.👻</div>
             <button id = 'continue' on:click = {Scroll} >Should you also...<span id = "more" class="material-symbols-outlined">
                 arrow_drop_down
                 </span></button>
