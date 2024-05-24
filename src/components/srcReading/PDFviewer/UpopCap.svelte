@@ -53,18 +53,21 @@
    })
 })
 function Crop(sH, sW) {
-  const canvas = document.createElement('canvas');
-  const ctx = canvas.getContext('2d');
+   let canvas = document.createElement('canvas');
+  let ctx = canvas.getContext('2d');
 
-  const img = document.getElementById('capturedimage');
+  let img = document.getElementById('capturedimage');
+  let imgRect = img.getBoundingClientRect();
 
-  const height = sH - prevY;
-  const width = sW - prevX;
-    console.log(height,"----",width)
+  let height = sH - prevY;
+  let width = sW - prevX;
+
   canvas.width = width;
   canvas.height = height;
 
-  ctx.drawImage(img, prevX, prevY, width, height, 0, 0, width, height);
+  ctx.drawImage(img, prevX - imgRect.left, prevY - imgRect.top, width, height, 0, 0, width, height);
+
+
 
  
 
