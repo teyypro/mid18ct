@@ -100,13 +100,14 @@ function Crop(sH, sW) {
 
 <style>
     #layoutback{
-        opacity: 0;
-        position: fixed;
-        top:0;
-        left:0;
-        right:0;
-        height:100%;
-        z-index:100;
+       
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 100;
+    cursor: crosshair;
     }
     #image{
         display: none;
@@ -124,7 +125,7 @@ function Crop(sH, sW) {
     
 #prevDisplay{
     position: fixed;
-    background-color: blanchedalmond;
+    background-color: transparent;
     bottom: 0;
     left: 0;
     z-index: 3;
@@ -139,7 +140,8 @@ function Crop(sH, sW) {
     touch-action: none;
     height:100%;
     z-index: 3;
-    
+    display: block;
+   
 
    
 }

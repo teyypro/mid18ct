@@ -22,7 +22,7 @@
         },2000)
     }
 </script>
-<div id = "containAllConverted" transition:slide={{duration:1000}}>
+<div id = "containAllConverted" in:slide={{duration:500}}>
 <div id = 'contaiconverted'>
     <div id = 'containCE'>
         <button on:click = {Exit}>exit</button>

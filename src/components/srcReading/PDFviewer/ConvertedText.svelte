@@ -35,7 +35,7 @@ let text = ''
 
 </script>
 
-<div id="contaiTextConverted" role="button" tabindex="0" aria-label="Back" contenteditable="true" spellcheck="false" on:mouseup={TestSelection}  on:mousedown={Delte} transition:blur={{duration:500}}>{$convertedTextTess}</div>
+<div id="contaiTextConverted" role="button" tabindex="0" aria-label="Back" contenteditable="true" spellcheck="false" on:mouseup={TestSelection}  on:mousedown={Delte} in:blur={{duration:500}}>{$convertedTextTess}</div>
 
 <style>
     #contaiTextConverted{
@@ -49,7 +49,7 @@ let text = ''
     padding-top: 1vh;
     color: #1d2a57;
     background-color: #fefefe;
-    font-family: monospace;
+    font-family: 'Montserrat';
     font-size: 2.5vh;
     }
 

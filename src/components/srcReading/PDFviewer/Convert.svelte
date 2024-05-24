@@ -1,4 +1,4 @@
-<div id ='container2choice' transition:slide={{duration:300}}>
+<div id ='container2choice' in:slide={{duration:300}}>
 
 <button on:click ={Vn}>VN-convert</button>
 <button on:click ={Tess}>ENG-convert</button>
