@@ -47,7 +47,7 @@ let text = ''
     overflow: auto;
     padding: 2vh;
     padding-top: 1vh;
-    color: #1d1d1d;
+    color: #1d2a57;
     background-color: #fefefe;
     font-family: monospace;
     font-size: 2.5vh;

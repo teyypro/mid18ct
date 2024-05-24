@@ -18,8 +18,8 @@
         const canvas = document.createElement('canvas');
         const ctx = canvas.getContext('2d');
   
-        canvas.height = video.videoHeight;
-        canvas.width = video.videoWidth;
+        canvas.height = window.innerHeight;
+        canvas.width = window.innerWidth;
   
         video.play();
     

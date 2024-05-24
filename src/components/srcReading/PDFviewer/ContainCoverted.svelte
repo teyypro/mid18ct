@@ -99,9 +99,12 @@ button{
     font-family: monospace;
     font-weight: bold;
     color: #1d1d1d;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 button:hover{
+    transition: 0.2s;
     background-color: #1d1d1d;
     color:#fefefe
 }

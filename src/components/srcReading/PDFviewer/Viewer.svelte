@@ -49,7 +49,7 @@ let text = ''
 
 <main>
 
-  <iframe src="/demoappofteyypro/PDFviewer/web/viewer.html" title="nothing" id="PDFviewer" on:load={Run} ></iframe>
+  <iframe src="/PDFviewer/web/viewer.html" title="nothing" id="PDFviewer" on:load={Run} ></iframe>
   
 </main>
   
