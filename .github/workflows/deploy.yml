@@ -28,7 +28,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/demoappofteyypro'
+          BASE_PATH: '/mid18ct'
         run: |
           npm run build
 
