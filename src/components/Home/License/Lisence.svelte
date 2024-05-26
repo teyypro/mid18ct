@@ -37,20 +37,6 @@
             <td></td>
         </tr>
         <tr>
-            <td>sirv-cli</td>
-            <td>Serving Static Files, Development Server,...</td>
-            <td>https://www.npmjs.com/package/sirv-cli</td>
-            <td> MIT license</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>svelte-spa-router</td>
-            <td>Leverages hash-based routing,...</td>
-            <td>https://www.npmjs.com/package/svelte-spa-router</td>
-            <td>MIT license</td>
-            <td></td>
-        </tr>
-        <tr>
             <td>Free Dictionary API</td>
             <td>Get definitions, check if it exists</td>
             <td>https://dictionaryapi.dev/</td>
