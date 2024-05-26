@@ -18,8 +18,8 @@ function openLink(url) {
 <div id ='contentDoc'>
     <div id = 'taskbar' in:scale ={{duration:1000}}>
        <Logo/>
-       <button id = 'license' on:click={()=>{openLink('/demoappofteyypro/license')}}>License</button>
-        <button on:click = {()=>{openLink('/demoappofteyypro/store')}} class="material-symbols-outlined" id = 'storelink'>
+       <button id = 'license' on:click={()=>{openLink('/mid18ct/license')}}>License</button>
+        <button on:click = {()=>{openLink('/mid18ct/store')}} class="material-symbols-outlined" id = 'storelink'>
             archive
         </button>
     </div>
@@ -49,7 +49,7 @@ function openLink(url) {
                 </span>
                 <span class = 'nametool'>R&T Tool</span>
                 <div class = "introduce">Providing real-time translation, comprehensive dictionary definitions, synonyms, antonyms, collocations across various formats including Text, PDFs and images for your IELTS READING and WRITING workouts.</div>
-                <button on:click ={()=>{openLink('/demoappofteyypro/readingwriting')}}  class = 'flag' ><span class="material-symbols-outlined">
+                <button on:click ={()=>{openLink('/mid18ct/readingwriting')}}  class = 'flag' ><span class="material-symbols-outlined">
                     flag
                     </span>Start</button>
             </div>
@@ -59,7 +59,7 @@ function openLink(url) {
                 </span>
                 <span class = 'nametool'>GapFilling Tool</span>
                 <div class = "introduce">Creating Gap-Filling exercises, which is the scariest part in LISTENING, from your audioscript. Work hard, fulfill both questión and ur auditory skills.</div>
-                <button on:click ={()=>{openLink('/demoappofteyypro/listening')}}  class = 'flag' ><span class="material-symbols-outlined">
+                <button on:click ={()=>{openLink('/mid18ct/listening')}}  class = 'flag' ><span class="material-symbols-outlined">
                     flag
                     </span>Start</button>
             </div>
@@ -74,7 +74,7 @@ function openLink(url) {
                 </span>
                 <span class = 'nametool'>VocaCheck Tool</span>
                 <div class = "introduce">Illuminating your brain via guessing the keys, means, words of what you learn, VOCABULARY is no longer ur problem.</div>
-                <button on:click ={()=>{openLink('/demoappofteyypro/reviving')}}  class = 'flag' ><span class="material-symbols-outlined">
+                <button on:click ={()=>{openLink('/mid18ct/reviving')}}  class = 'flag' ><span class="material-symbols-outlined">
                     flag
                     </span>Start</button>
             </div>
@@ -84,7 +84,7 @@ function openLink(url) {
                 </span>
                 <span class = 'nametool'>Dic&Speak Tool</span>
                 <div class = "introduce">Regulating your SPEAKING speed, tracking fluency, quick acquisition of foreign language like your mother's tougue subconsciously via RSVP technique.</div>
-                <button on:click ={()=>{openLink('/demoappofteyypro/speaking')}}  class = 'flag' ><span class="material-symbols-outlined">
+                <button on:click ={()=>{openLink('/mid18ct/speaking')}}  class = 'flag' ><span class="material-symbols-outlined">
                     flag
                     </span>Start</button>
             </div>
